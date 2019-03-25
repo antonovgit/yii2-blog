@@ -1,0 +1,21 @@
+{
+    "name": "antonovgit/yii2-blog",
+    "description": "Blog module for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","blog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitrii Antonov",
+            "email": "d.antonovbox@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "antonovgit\\blog\\": ""
+        }
+    }
+}
