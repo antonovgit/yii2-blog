@@ -60,7 +60,7 @@ use vova07\imperavi\Widget;
     <?//= $form->field($model, 'status_id')->dropDownList( \common\models\Blog::getStatusList() ) ?>
     <?//= $form->field($model, 'status_id')->dropDownList( \common\models\Blog::STATUS_LIST ) ?>
     <?//= $form->field($model, 'status_id', ['options' => ['class' => 'col-xs-6']])->dropDownList( \common\models\Blog::STATUS_LIST ) ?>
-    <?= $form->field($model, 'status_id', ['options' => ['class' => 'col-xs-6']])->dropDownList( \common\modules\blog\models\Blog::STATUS_LIST ) ?>
+    <?= $form->field($model, 'status_id', ['options' => ['class' => 'col-xs-6']])->dropDownList( \antonovgit\blog\models\Blog::STATUS_LIST ) ?>
 
     <?//= $form->field($model, 'sort')->textInput() ?>
     <?= $form->field($model, 'sort', ['options' => ['class' => 'col-xs-6']])->textInput() ?>
