@@ -1,6 +1,6 @@
 <?php
 
-namespace common\modules\blog;
+namespace antonovgit\blog;
 
 /**
  * blog module definition class
@@ -8,7 +8,8 @@ namespace common\modules\blog;
 class Blog extends \yii\base\Module
 {
 
-    public $controllerNamespace = 'common\modules\blog\controllers';
+    //public $controllerNamespace = 'common\modules\blog\controllers';
+    public $controllerNamespace = 'antonovgit\blog\controllers';
     public $defaultRoute = 'blog';  // Задаем дефаулт контроллер http://yii2.blondy/yii2/backend/web/blog
 
     /**
